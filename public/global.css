@@ -113,14 +113,27 @@ h6 a {
 p,
 p a {
 	font-size: 1rem;
+	line-height: 150%;
 }
 
 p a {
 	font-weight: 600;
 }
 
+a {
+	text-decoration: none;
+	color: var(--black-text);
+	transition: 0.1s;
+}
+a:hover {
+	color: #00b85c;
+}
 
-/* Class based styling */
+/* Section-spacing styling */
+
+section {
+	margin-top: 40px;
+}
 
 .width-restriction {
 	width: 90%;
@@ -144,6 +157,10 @@ nav {
 	-webkit-box-shadow: var(--all-shadow);
 	-moz-box-shadow: var(--all-shadow);
 	padding: 10px 0;
+	position: sticky;
+	top: 0;
+	background-color: #ffffff;
+	z-index: 2
 }
 
 nav .width-restriction {
@@ -190,7 +207,7 @@ button {
 	border-radius: 10px;
 	box-shadow: var(--all-shadow);
 	background-color: #000000;
-	padding: 15px 20px;
+	padding: 10px 20px;
 	margin-top: 20px;
 	margin-right: 20px;
 	transition: 0.2s;
@@ -201,8 +218,5 @@ button:hover {
 @media screen and (max-width: 710px) {
 	.post-buttons {
 		text-align: center;
-	}
-	button {
-		/* margin-top: 10px; */
 	}
 }
