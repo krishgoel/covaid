@@ -1,0 +1,39 @@
+.row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+/* Columns */
+.col-3 {
+	grid-column: span 4;
+}
+.col-4 {
+	grid-column: span 3;
+}
+.col-6 {
+	grid-column: span 6;
+}
+.col-12 {
+	grid-column: span 12;
+}
+
+/* Responsive column sizing */
+@media screen and (max-width:800px) {
+    .col-3 {
+        grid-column: span 6;
+    }
+    .col-4, .col-6 {
+        grid-column: span 12;
+    }
+}
+@media screen and (max-width: 600px) {
+    .col-3 {
+        grid-column: span 12;
+    }
+}
+
+/* Responsve screen breakpoints */
+/* Small: 0px - 640px */
+/* Medium: 641px - 1000px */
+/* Large: 1001px - ∞ */

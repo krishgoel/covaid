@@ -1,0 +1,208 @@
+/* San Francisco Pro Regular (+Italic) and Bold (+Italic) and Heavy */
+
+@font-face {
+	font-family: SF-Pro;
+	font-weight: 400;
+	src: url(fonts/SF-Pro-Regular.woff2);
+}
+
+@font-face {
+	font-family: SF-Pro;
+	font-weight: 400;
+	font-style: italic;
+	src: url(fonts/SF-Pro-Regular-Italic.woff2);
+}
+
+@font-face {
+	font-family: SF-Pro;
+	font-weight: 700;
+	src: url(fonts/SF-Pro-Bold.woff2);
+}
+
+@font-face {
+	font-family: SF-Pro;
+	font-weight: 700;
+	font-style: italic;
+	src: url(fonts/SF-Pro-Bold-Italic.woff2);
+}
+
+
+/* San Francisco Mono Regular and Bold */
+
+@font-face {
+	font-family: SF-Mono;
+	font-weight: 400;
+	src: url(fonts/SF-Mono-Regular.woff2);
+}
+
+@font-face {
+	font-family: SF-Mono;
+	font-weight: 700;
+	src: url(fonts/SF-Mono-Bold.woff2);
+}
+
+
+/* General body styling */
+
+*,
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: var(--black-text);
+	font-family: 'SF-Pro';
+}
+
+
+/* Font sizing */
+
+h1,
+h1 a {
+	font-size: calc(1.355rem + 1.26vw);
+}
+
+@media (min-width: 1200px) {
+	h1,
+	h1 a {
+		font-size: 2.3rem;
+	}
+}
+
+h2,
+h2 a {
+	font-size: calc(1.295rem + 0.54vw);
+}
+
+@media (min-width: 1200px) {
+	h2,
+	h2 a {
+		font-size: 1.7rem;
+	}
+}
+
+h3,
+h3 a {
+	font-size: calc(1.275rem + 0.3vw);
+}
+
+@media (min-width: 1200px) {
+	h3,
+	h3 a {
+		font-size: 1.5rem;
+	}
+}
+
+h4,
+h4 a {
+	font-size: 1.2rem;
+}
+
+h5,
+h5 a {
+	font-size: 0.9rem;
+}
+
+h6,
+h6 a {
+	font-size: 1rem;
+}
+
+p,
+p a {
+	font-size: 1rem;
+}
+
+p a {
+	font-weight: 600;
+}
+
+
+/* Class based styling */
+
+.width-restriction {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/* Palette */
+
+:root {
+	--all-shadow: 0px 0px 10px 0px #bdbdbd;
+	--hover-shadow: 0px 0px 15px 2px #9c9c9c;
+	--black-text: #333333;
+}
+
+
+/* Nav design */
+
+nav {
+	box-shadow: var(--all-shadow);
+	-webkit-box-shadow: var(--all-shadow);
+	-moz-box-shadow: var(--all-shadow);
+	padding: 10px 0;
+}
+
+nav .width-restriction {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+/* Card design */
+
+.card {
+	width: 90%;
+	box-shadow: var(--all-shadow);
+	padding: 15px 0;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.card .width-restriction {
+	width: 85%
+}
+
+.card h2,
+.card h3 {
+	margin-bottom: 10px;
+}
+
+.card input {
+	position: relative;
+	top: 1px;
+	margin-bottom: 15px;
+	margin-right: 8px
+	/* margin-left: 10px */
+}
+
+/* post-request section */
+button {
+	color: #ffffff;
+	font-family: 'SF-Pro';
+	/* border: 4px solid var(--black-text); */
+	border: none;
+	border-radius: 10px;
+	box-shadow: var(--all-shadow);
+	background-color: #000000;
+	padding: 15px 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	transition: 0.2s;
+}
+button:hover {
+	box-shadow: var(--hover-shadow);
+}
+@media screen and (max-width: 710px) {
+	.post-buttons {
+		text-align: center;
+	}
+	button {
+		/* margin-top: 10px; */
+	}
+}
