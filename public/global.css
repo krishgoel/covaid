@@ -19,13 +19,6 @@
 	src: url(fonts/SF-Pro-Bold.woff2);
 }
 
-@font-face {
-	font-family: SF-Pro;
-	font-weight: 700;
-	font-style: italic;
-	src: url(fonts/SF-Pro-Bold-Italic.woff2);
-}
-
 
 /* San Francisco Mono Regular and Bold */
 
@@ -123,7 +116,7 @@ p a {
 a {
 	text-decoration: none;
 	color: var(--black-text);
-	transition: 0.1s;
+	transition: 0.2s;
 }
 a:hover {
 	color: #00b85c;
@@ -140,6 +133,9 @@ section {
 	margin: 0 auto;
 }
 
+.mono {
+	font-family: SF-Mono;
+}
 
 /* Palette */
 
@@ -153,9 +149,11 @@ section {
 /* Nav design */
 
 nav {
-	box-shadow: var(--all-shadow);
+	/* box-shadow: var(--all-shadow);
 	-webkit-box-shadow: var(--all-shadow);
-	-moz-box-shadow: var(--all-shadow);
+	-moz-box-shadow: var(--all-shadow); */
+
+	border-bottom: 2px solid var(--black-text);
 	padding: 10px 0;
 	position: sticky;
 	top: 0;
@@ -219,4 +217,19 @@ button:hover {
 	.post-buttons {
 		text-align: center;
 	}
+}
+
+/* Footer */
+footer {
+	padding: 15px 0;
+	margin-top: 40px;
+	border-top: 2px solid var(--black-text);
+	background-color: #ffffff;
+	z-index: 2
+}
+
+footer .width-restriction {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
