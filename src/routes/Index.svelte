@@ -188,12 +188,15 @@ function twitterDeploy() {
 <section>
 	<div class="width-restriction">
 		<h1>I am looking for</h1>
+		<p><strong>Currently operational in Delhi and NCR only</strong></p>
+		<br/>
+		<p>Kindly check all the items you're looking for however selecting more than 4 items would result in an inefficient Twitter Search.</p>
 		<section class="checkboxes">
 			<div class="row">
 				<div class="col-3">
 					<div class="card">
 						<div class="width-restriction">
-							<h2>🏥 Beds</h2>
+							<h3>🏥 Beds</h3>
 							<input type=checkbox id="bed-oxygen" bind:checked={oxygenBed}/>
 							<label for="bed-oxygen">
 								With Oxygen
@@ -207,7 +210,7 @@ function twitterDeploy() {
 					</div>
 					<div class="card">
 						<div class="width-restriction">
-							<h2>😷 Oxygen</h2>
+							<h3>😷 Oxygen</h3>
 							<input type=checkbox id="oxygen-cylinder" bind:checked={oxygenCylinder}/>
 							<label for="oxygen-cylinder">
 								Oxygen Cylinder
@@ -224,9 +227,9 @@ function twitterDeploy() {
 				<div class="col-3">
 					<div class="card">
 						<div class="width-restriction">
-							<h2>💊 Injections & Medicines</h2>
+							<h3>💊 Injections & Medicines</h3>
 
-							<h3>Injections</h3>
+							<h4>Injections</h4>
 							
 							<input type=checkbox id="remdesivir" bind:checked={remdesivir}/>
 							<label for="remdesivir">
@@ -243,7 +246,7 @@ function twitterDeploy() {
 								Itolizumab
 							</label><br/>
 
-							<h3>Medicines</h3>
+							<h4>Medicines</h4>
 
 							<input type=checkbox id="ivermectin" bind:checked={ivermetcin}/>
 							<label for="ivermectin">
@@ -266,7 +269,7 @@ function twitterDeploy() {
 				<div class="col-3">
 					<div class="card">
 						<div class="width-restriction">
-							<h2>🍴 Home ICU & Food Services</h2>
+							<h3>🍴 Home ICU & Food Services</h3>
 
 							<input type=checkbox id="homeICU" bind:checked={homeICU}/>
 							<label for="homeICU">
@@ -286,7 +289,7 @@ function twitterDeploy() {
 
 		<!-- Add post-req section -->
 		<section class="post-request">
-			<h1>Post request section</h1>
+			<h1>Post your request</h1>
 			<div class="post-buttons">
 				<button on:click={twitterDeploy}>
 					<p><strong>
@@ -304,7 +307,7 @@ function twitterDeploy() {
 
 
 		<!-- Manual DB section -->
-		<h1 id="notion-resources">Resources from our personal databse go here</h1>
+		<h1 id="notion-resources">Resources from our personally-verified database</h1>
 		<br/>
 		
 		<!-- Oxygen Beds -->
