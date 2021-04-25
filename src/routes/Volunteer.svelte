@@ -19,6 +19,14 @@
             <br/><br/>
             We urge you all to <strong>Unite Against Covid-19 and join us in Spreading Facts, Not Fear</strong>.
         </p>
+        <!-- <br/><br/> -->
+        <a href="https://forms.gle/v5qH3e3tXwiGPPGb8">
+            <button>
+                <p><strong>
+                    Become a volunteer
+                </strong></p>
+            </button>
+        </a>
         <br/><br/>
         <h2>People working with us</h2>
         <br/>
