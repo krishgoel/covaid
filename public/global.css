@@ -190,6 +190,11 @@ nav .width-restriction {
 	margin-bottom: 10px;
 }
 
+.card h4 {
+	font-weight: 400;
+	font-size: 1rem
+}
+
 .card input {
 	position: relative;
 	top: 1px;

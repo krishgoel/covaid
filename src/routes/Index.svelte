@@ -343,7 +343,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -372,7 +372,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -401,7 +401,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -447,7 +447,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -476,7 +476,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -505,7 +505,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -551,7 +551,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -580,7 +580,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -609,7 +609,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -655,7 +655,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -684,7 +684,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -713,7 +713,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -759,7 +759,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -788,7 +788,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -817,7 +817,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -863,7 +863,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -892,7 +892,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -921,7 +921,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4>Last checked: {lead.fields.timestamp}</h4>
+											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -967,7 +967,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -996,7 +996,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1025,7 +1025,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1071,7 +1071,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1100,7 +1100,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1129,7 +1129,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1175,7 +1175,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1204,7 +1204,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1233,7 +1233,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1279,7 +1279,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1308,7 +1308,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1337,7 +1337,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1383,7 +1383,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1412,7 +1412,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1441,7 +1441,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1487,7 +1487,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1516,7 +1516,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1545,7 +1545,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1591,7 +1591,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1620,7 +1620,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1649,7 +1649,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
