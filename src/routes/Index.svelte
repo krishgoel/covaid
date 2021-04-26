@@ -74,6 +74,13 @@
 		return await response.json()
 	})()
 
+	// Favipiravir
+	let favipiravir = false;
+	const fetchFavipiravir = (async () => {
+		var response = await fetch('https://potion-api.now.sh/table?id=db78c9c770e24ea7945dcfd257effc3f')
+		return await response.json()
+	})()
+
 	// Home ICU
 	let homeICU = false;
 	const fetchHomeICUs = (async () => {
@@ -147,6 +154,11 @@ function twitterDeploy() {
       "name": "FabiFlu",
       "need": fabiflu,
       "query": "fabiflu+OR+(fabi+flu)"
+    },
+	{
+      "name": "Favipiravir",
+      "need": favipiravir,
+      "query": "favipiravir"
     },
     {
       "name": "Home ICU",
@@ -261,6 +273,11 @@ function twitterDeploy() {
 							<input type="checkbox" id="fabiFlu" bind:checked={fabiflu}/>
 							<label for="fabiFlu">
 								FabiFlu
+							</label><br/>
+
+							<input type="checkbox" id="favipiravir" bind:checked={favipiravir}/>
+							<label for="favipiravir">
+								Favipiravir
 							</label><br/>
 						</div>
 					</div>
@@ -1350,7 +1367,111 @@ function twitterDeploy() {
 		<br/>
 		{/if}
 
-		<!-- FabiFlu -->
+		<!-- Favipiravir -->
+		{#if favipiravir}
+		{#await fetchFavipiravir}
+			<p>Favipiravir loading</p>
+		{:then data}
+			<h2>Favipiravir</h2>
+			<br/>
+			<br/>
+			<div class="row">
+				<div class="col-3">
+					{#each data as lead, i}
+						{#if lead.fields.available}
+							{#if i%3 == 0}
+								<div class="card">
+									<div class="width-restriction">
+										<h2>{lead.fields.name}</h2>
+										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<br/>
+										<p>📍 
+											<a href="{lead.fields.google}">
+												{lead.fields.location}
+											</a>
+										</p>
+										<p>📞 
+											<a href="tel: {lead.fields.contact}">
+												{lead.fields.contact}
+											</a>
+										</p>
+										<br/>
+										<p>
+											{lead.fields.notes}
+										</p>
+									</div>
+								</div>
+							{/if}
+						{/if}
+					{/each}
+				</div>
+				<div class="col-3">
+					{#each data as lead, i}
+						{#if lead.fields.available}
+							{#if i%3 == 1}
+								<div class="card">
+									<div class="width-restriction">
+										<h2>{lead.fields.name}</h2>
+										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<br/>
+										<p>📍 
+											<a href="{lead.fields.google}">
+												{lead.fields.location}
+											</a>
+										</p>
+										<p>📞 
+											<a href="tel: {lead.fields.contact}">
+												{lead.fields.contact}
+											</a>
+										</p>
+										<br/>
+										<p>
+											{lead.fields.notes}
+										</p>
+									</div>
+								</div>
+							{/if}
+						{/if}
+					{/each}
+				</div>
+				<div class="col-3">
+					{#each data as lead, i}
+						{#if lead.fields.available}
+							{#if i%3 == 2}
+								<div class="card">
+									<div class="width-restriction">
+										<h2>{lead.fields.name}</h2>
+										<h4>Last checked: {lead.fields.timestamp}</h4>
+										<br/>
+										<p>📍 
+											<a href="{lead.fields.google}">
+												{lead.fields.location}
+											</a>
+										</p>
+										<p>📞 
+											<a href="tel: {lead.fields.contact}">
+												{lead.fields.contact}
+											</a>
+										</p>
+										<br/>
+										<p>
+											{lead.fields.notes}
+										</p>
+									</div>
+								</div>
+							{/if}
+						{/if}
+					{/each}
+				</div>
+			</div>
+			
+		{:catch error}
+			<p>{errorMessage}</p>
+		{/await}
+		<br/>
+		{/if}
+
+		<!-- Home ICU -->
 		{#if homeICU}
 		{#await fetchHomeICUs}
 			<p>Home ICUs loading</p>
