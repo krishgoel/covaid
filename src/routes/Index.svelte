@@ -175,7 +175,7 @@ function twitterDeploy() {
     }
   }
  
-  query += `-"not+verified"+-"unverified"+-"needed"+-"need"+-"required"+-"urgent"+-"asap"+-"urgently"&f=live`
+  query += `-"not+verified"+-"unverified"+-"needed"+-"need"+-"required"+-"urgent"+-"asap"+-"?"+-"urgently"&f=live`
   console.log("Query: " + query)
 
   window.open(query, '_blank').focus()
