@@ -351,7 +351,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -380,7 +380,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -409,7 +409,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -455,7 +455,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -484,7 +484,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -513,7 +513,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -559,7 +559,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -588,7 +588,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -617,7 +617,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -663,7 +663,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -692,7 +692,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -721,7 +721,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -767,7 +767,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -796,7 +796,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -825,7 +825,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -871,7 +871,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -900,7 +900,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -929,7 +929,7 @@ function twitterDeploy() {
 												</a>
 											</p>
 											<p>📞 
-												<a href="tel: {lead.fields.contact}">
+												<a href="{lead.fields.contact}">
 													{lead.fields.contact}
 												</a>
 											</p>
@@ -975,7 +975,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1004,7 +1004,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1033,7 +1033,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1079,7 +1079,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1108,7 +1108,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1137,7 +1137,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1183,7 +1183,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1212,7 +1212,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1241,7 +1241,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1287,7 +1287,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1316,7 +1316,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1345,7 +1345,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1391,7 +1391,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1420,7 +1420,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1449,7 +1449,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1495,7 +1495,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1524,7 +1524,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1553,7 +1553,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1599,7 +1599,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1628,7 +1628,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
@@ -1657,7 +1657,7 @@ function twitterDeploy() {
 											</a>
 										</p>
 										<p>📞 
-											<a href="tel: {lead.fields.contact}">
+											<a href="{lead.fields.contact}">
 												{lead.fields.contact}
 											</a>
 										</p>
