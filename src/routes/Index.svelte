@@ -2,96 +2,96 @@
     // Components import
 	import * as animateScroll from "svelte-scrollto";
 
-	let errorMessage = "Whoopsie!"
+	let errorMessage = "There has been an internal server error due to the Potion API, please check back again"
 
 	// Oxygen beds
 	let oxygenBed = false;
 	const fetchOxygenBeds = (async () => {
-		var response = await fetch('https://potion-api.now.sh/table?id=e380bca0e75a4c55bed1578814d13057')
+		var response = await fetch('https://potion-api.vercel.app/table?id=e380bca0e75a4c55bed1578814d13057')
 		return await response.json()
 	})()
 
 	// Ventilator beds
 	let ventilatorBed = false;
 	const fetchVentilatorBeds = (async () => {
-		var response = await fetch('https://potion-api.now.sh/table?id=dccc5d04ad98429a9a1c75823630a83f')
+		var response = await fetch('https://potion-api.vercel.app/table?id=dccc5d04ad98429a9a1c75823630a83f')
 		return await response.json()
 	})()
 
 	// Oxygen cylinders
 	let oxygenCylinder = false;
 	const fetchOxygenCylinders = (async () => {
-		var response = await fetch('https://potion-api.now.sh/table?id=997092406733487cb1a352096c9f3c72')
+		var response = await fetch('https://potion-api.vercel.app/table?id=997092406733487cb1a352096c9f3c72')
 		return await response.json()
 	})()
 
 	// Oxygen concentrators
 	let oxygenConcentrator = false;
 	const fetchOxygenConcentrators = (async () => {
-		var response = await fetch('https://potion-api.now.sh/table?id=d69f983ea0664bfb90a158cc8f96b2b0')
+		var response = await fetch('https://potion-api.vercel.app/table?id=d69f983ea0664bfb90a158cc8f96b2b0')
 		return await response.json()
 	})()
 
 	// Remdesivir
 	let remdesivir = false;
 	const fetchRemdesivirs = (async () => {
-		var response = await fetch('https://potion-api.now.sh/table?id=c728381206034556af52c7f539fd03cd')
+		var response = await fetch('https://potion-api.vercel.app/table?id=c728381206034556af52c7f539fd03cd')
 		return await response.json()
 	})()
 
 	// Tocilizumab
 	let tocilizumab = false;
 	const fetchTocilizumabs = (async () => {
-		var response = await fetch('https://potion-api.now.sh/table?id=21eac0559fc54048a89c48e1aea898b3')
+		var response = await fetch('https://potion-api.vercel.app/table?id=21eac0559fc54048a89c48e1aea898b3')
 		return await response.json()
 	})()
 
 	// Itolizumab
 	let itolizumab = false;
 	const fetchItolizumabs = (async () => {
-		var response = await fetch('https://potion-api.now.sh/table?id=3e4d3d1691634ed29586fa7b3bebc64a')
+		var response = await fetch('https://potion-api.vercel.app/table?id=3e4d3d1691634ed29586fa7b3bebc64a')
 		return await response.json()
 	})()
 
 	// Ivermecin
 	let ivermetcin = false;
 	const fetchIvermecins = (async () => {
-		var response = await fetch('https://potion-api.now.sh/table?id=82f0b893f2ff4dbaba1514fada041946')
+		var response = await fetch('https://potion-api.vercel.app/table?id=82f0b893f2ff4dbaba1514fada041946')
 		return await response.json()
 	})()
 
 	// Methylprednisolone
 	let methylprednisolone = false;
 	const fetchMethylprednisolones = (async () => {
-		var response = await fetch('https://potion-api.now.sh/table?id=97dceaaeff3a48fe9b4dec35cfb0ddc7')
+		var response = await fetch('https://potion-api.vercel.app/table?id=97dceaaeff3a48fe9b4dec35cfb0ddc7')
 		return await response.json()
 	})()
 
 	// FabiFlu
 	let fabiflu = false;
 	const fetchFabiflus = (async () => {
-		var response = await fetch('https://potion-api.now.sh/table?id=a40064e9f7c440de9752fe239adfdb85')
+		var response = await fetch('https://potion-api.vercel.app/table?id=a40064e9f7c440de9752fe239adfdb85')
 		return await response.json()
 	})()
 
 	// Favipiravir
 	let favipiravir = false;
 	const fetchFavipiravir = (async () => {
-		var response = await fetch('https://potion-api.now.sh/table?id=db78c9c770e24ea7945dcfd257effc3f')
+		var response = await fetch('https://potion-api.vercel.app/table?id=db78c9c770e24ea7945dcfd257effc3f')
 		return await response.json()
 	})()
 
 	// Home ICU
 	let homeICU = false;
 	const fetchHomeICUs = (async () => {
-		var response = await fetch('https://potion-api.now.sh/table?id=86b0e8c1da434c8e95e12d5a2724da45')
+		var response = await fetch('https://potion-api.vercel.app/table?id=86b0e8c1da434c8e95e12d5a2724da45')
 		return await response.json()
 	})()
 
 	// Food Services
 	let food = false;
 	const fetchFood = (async () => {
-		var response = await fetch('https://potion-api.now.sh/table?id=4a729eb78021409fa44c5082693fbd4a')
+		var response = await fetch('https://potion-api.vercel.app/table?id=4a729eb78021409fa44c5082693fbd4a')
 		return await response.json()
 	})()
 	
@@ -343,7 +343,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -372,7 +372,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -401,7 +401,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -447,7 +447,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -476,7 +476,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -505,7 +505,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -551,7 +551,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -580,7 +580,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -609,7 +609,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -655,7 +655,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -684,7 +684,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -713,7 +713,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -759,7 +759,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -788,7 +788,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -817,7 +817,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -863,7 +863,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -892,7 +892,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -921,7 +921,7 @@ function twitterDeploy() {
 									<div class="card">
 										<div class="width-restriction">
 											<h2>{lead.fields.name}</h2>
-											<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+											<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 											<br/>
 											<p>📍 
 												<a href="{lead.fields.google}">
@@ -967,7 +967,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -996,7 +996,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1025,7 +1025,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1071,7 +1071,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1100,7 +1100,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1129,7 +1129,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1175,7 +1175,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1204,7 +1204,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1233,7 +1233,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1279,7 +1279,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1308,7 +1308,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1337,7 +1337,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1383,7 +1383,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1412,7 +1412,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1441,7 +1441,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1487,7 +1487,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1516,7 +1516,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1545,7 +1545,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1591,7 +1591,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1620,7 +1620,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
@@ -1649,7 +1649,7 @@ function twitterDeploy() {
 								<div class="card">
 									<div class="width-restriction">
 										<h2>{lead.fields.name}</h2>
-										<h4><strong>Last checked:</strong> {lead.fields.timestamp}</h4>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
 										<br/>
 										<p>📍 
 											<a href="{lead.fields.google}">
