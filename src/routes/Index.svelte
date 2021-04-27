@@ -307,6 +307,9 @@ function twitterDeploy() {
 		<!-- Add post-req section -->
 		<section class="post-request">
 			<h1>Post your request</h1>
+			<p>
+				Pleas note that while we work to the best of abilities to provide verified information on COVID-19 resources to all those in need, we donot take any responsibilities for any consequences that may occue through our platform. Rest assured, our teams are working around the clock to get you this information in real-time.
+			</p>
 			<div class="post-buttons">
 				<button on:click={twitterDeploy}>
 					<p><strong>
