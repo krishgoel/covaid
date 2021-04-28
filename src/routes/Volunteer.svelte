@@ -78,7 +78,7 @@
 
             </div>
         </div> -->
-        <br/><br/>
+        <!-- <br/><br/>
         <h2>People working with us</h2>
         <br/>
         {#await contributorsDB}
@@ -125,6 +125,6 @@
 				
 			{:catch error}
 				<p>There was an error in loading contributors</p>
-			{/await}
+			{/await} -->
     </div>
 </section>
