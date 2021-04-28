@@ -29,8 +29,8 @@
         </a>
         <br/><br/>
         <!-- <h2>Founder Log</h2> -->
-        <br/>
-        <div class="row">
+        <!-- <br/> -->
+        <!-- <div class="row">
             <div class="col-3">
 
                 <div class="card">
@@ -77,7 +77,7 @@
                 </div>
 
             </div>
-        </div>
+        </div> -->
         <br/><br/>
         <h2>People working with us</h2>
         <br/>
