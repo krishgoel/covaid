@@ -23,14 +23,14 @@
                 <div class="card">
                     <div class="width-restriction">
                         <h3>Advait Roy</h3>
-                        <p>Volunteer management</p>
+                        <p>Volunteer management Department: Manager - 1</p>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="width-restriction">
                         <h3>Srijan Tripathi</h3>
-                        <p>Social media management</p>
+                        <p>Social media management Department: Manager</p>
                     </div>
                 </div>
 
@@ -41,14 +41,14 @@
                 <div class="card">
                     <div class="width-restriction">
                         <h3>Ishaan Kanodia</h3>
-                        <p>Volunteer management</p>
+                        <p>Volunteer management Department: Manager - 2</p>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="width-restriction">
                         <h3>Raghav Sarangi</h3>
-                        <p>"Pro Brawler"</p>
+                        <p>Professional Executive</p>
                     </div>
                 </div>
 
@@ -59,7 +59,7 @@
                 <div class="card">
                     <div class="width-restriction">
                         <h3>Krish Goel</h3>
-                        <p>Tech lead</p>
+                        <p>Tec# $w@ggEr</p>
                     </div>
                 </div>
 
