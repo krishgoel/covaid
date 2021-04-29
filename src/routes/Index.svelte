@@ -119,15 +119,25 @@ function twitterDeploy() {
   search = []
   query = "https://twitter.com/search?q=verified+delhi+"
   var needs = [
-    {
-      "name": "Oxygen Bed",
-      "need": oxygenBed,
-      "query": "oxygen+(bed+OR+beds)"
+    // {
+    //   "name": "Oxygen Bed",
+    //   "need": oxygenBed,
+    //   "query": "oxygen+(bed+OR+beds)"
+    // },
+    // {
+    //   "name": "Ventilator",
+    //   "need": ventilatorBed,
+    //   "query": "ventilator+OR+ventilators"
+    // },
+	{
+      "name": "Plasma Donor",
+      "need": plasmaDonor,
+      "query": "plasma+OR+plasma+donor"
     },
     {
-      "name": "Ventilator",
-      "need": ventilatorBed,
-      "query": "ventilator+OR+ventilators"
+      "name": "Blood Donor",
+      "need": bloodDonor,
+      "query": "(blood+donor)+OR+blood"
     },
     {
       "name": "Oxygen Cylinder",
