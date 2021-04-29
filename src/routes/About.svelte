@@ -16,5 +16,54 @@
             <br/>
             CovAID
         </p>
+        <br/>
+        <div class="row">
+            <div class="col-3">
+
+                <div class="card">
+                    <div class="width-restriction">
+                        <h3>Advait Roy</h3>
+                        <p>Volunteer management</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="width-restriction">
+                        <h3>Srijan Tripathi</h3>
+                        <p>Social media management</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-3">
+
+                <div class="card">
+                    <div class="width-restriction">
+                        <h3>Ishaan Kanodia</h3>
+                        <p>Volunteer management</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="width-restriction">
+                        <h3>Raghav Sarangi</h3>
+                        <p>"Pro Brawler"</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-3">
+
+                <div class="card">
+                    <div class="width-restriction">
+                        <h3>Krish Goel</h3>
+                        <p>Tech lead</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 </section>

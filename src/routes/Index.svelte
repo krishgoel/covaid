@@ -4,17 +4,31 @@
 
 	let errorMessage = "There has been an internal server error due to the Potion API, please check back again"
 
-	// Oxygen beds
-	let oxygenBed = false;
-	const fetchOxygenBeds = (async () => {
-		var response = await fetch('https://potion-api.vercel.app/table?id=e380bca0e75a4c55bed1578814d13057')
+	// // Oxygen beds
+	// let oxygenBed = false;
+	// const fetchOxygenBeds = (async () => {
+	// 	var response = await fetch('https://potion-api.vercel.app/table?id=e380bca0e75a4c55bed1578814d13057')
+	// 	return await response.json()
+	// })()
+
+	// // Ventilator beds
+	// let ventilatorBed = false;
+	// const fetchVentilatorBeds = (async () => {
+	// 	var response = await fetch('https://potion-api.vercel.app/table?id=dccc5d04ad98429a9a1c75823630a83f')
+	// 	return await response.json()
+	// })()
+
+	// Plasma Donors
+	let plasmaDonor = false;
+	const fetchPlasmaDonors = (async () => {
+		var response = await fetch('https://potion-api.vercel.app/table?id=271dc3f154a2432f92ae6782174d28d7')
 		return await response.json()
 	})()
 
-	// Ventilator beds
-	let ventilatorBed = false;
-	const fetchVentilatorBeds = (async () => {
-		var response = await fetch('https://potion-api.vercel.app/table?id=dccc5d04ad98429a9a1c75823630a83f')
+	// Oxygen cylinders
+	let bloodDonor = false;
+	const fetchBloodDonors = (async () => {
+		var response = await fetch('https://potion-api.vercel.app/table?id=6469ce05c1e34eea837d26f35ca69144')
 		return await response.json()
 	})()
 
@@ -206,7 +220,9 @@ function twitterDeploy() {
 		<section class="checkboxes">
 			<div class="row">
 				<div class="col-3">
-					<div class="card">
+					
+					
+					<!-- <div class="card">
 						<div class="width-restriction">
 							<h3>🏥 Beds</h3>
 							<input type=checkbox id="bed-oxygen" bind:checked={oxygenBed}/>
@@ -219,7 +235,24 @@ function twitterDeploy() {
 								With Ventilator
 							</label><br/>
 						</div>
+					</div> -->
+
+					<div class="card">
+						<div class="width-restriction">
+							<h3>🩸 Blood & Plasma</h3>
+							<input type=checkbox id="plasma-donor" bind:checked={plasmaDonor}/>
+							<label for="plasma-donor">
+								Plasma Donors
+							</label><br/>
+
+							<input type="checkbox" id="blood-donor" bind:checked={bloodDonor}/>
+							<label for="blood-donor">
+								Blood Donors
+							</label><br/>
+						</div>
 					</div>
+
+
 					<div class="card">
 						<div class="width-restriction">
 							<h3>😷 Oxygen</h3>
@@ -331,7 +364,7 @@ function twitterDeploy() {
 		<br/>
 		
 		<!-- Oxygen Beds -->
-		{#if oxygenBed}
+		<!-- {#if oxygenBed}
 			{#await fetchOxygenBeds}
 				<p>Oxygen beds loading</p>
 			{:then data}
@@ -432,10 +465,10 @@ function twitterDeploy() {
 				<p>{errorMessage}</p>
 			{/await}
 			<br/>
-		{/if}
+		{/if} -->
 
 		<!-- Ventilator Beds -->
-		{#if ventilatorBed}
+		<!-- {#if ventilatorBed}
 			{#await fetchVentilatorBeds}
 				<p>Ventilator beds loading</p>
 			{:then data}
@@ -536,6 +569,214 @@ function twitterDeploy() {
 				<p>{errorMessage}</p>
 			{/await}
 			<br/>
+		{/if} -->
+
+		<!-- Plasma Donors -->
+		{#if plasmaDonor}
+		{#await fetchPlasmaDonors}
+			<p>Plasma donors loading</p>
+		{:then data}
+			<h2>Plasma Donors</h2>
+			<br/>
+			<br/>
+			<div class="row">
+				<div class="col-3">
+					{#each data as lead, i}
+						{#if lead.fields.available}
+							{#if i%3 == 0}
+								<div class="card">
+									<div class="width-restriction">
+										<h2>{lead.fields.name}</h2>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
+										<br/>
+										<p>📍 
+											<a href="{lead.fields.google}">
+												{lead.fields.location}
+											</a>
+										</p>
+										<p>📞 
+											<a href="{lead.fields.contact}">
+												{lead.fields.contact}
+											</a>
+										</p>
+										<br/>
+										<p>
+											{lead.fields.notes}
+										</p>
+									</div>
+								</div>
+							{/if}
+						{/if}
+					{/each}
+				</div>
+				<div class="col-3">
+					{#each data as lead, i}
+						{#if lead.fields.available}
+							{#if i%3 == 1}
+								<div class="card">
+									<div class="width-restriction">
+										<h2>{lead.fields.name}</h2>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
+										<br/>
+										<p>📍 
+											<a href="{lead.fields.google}">
+												{lead.fields.location}
+											</a>
+										</p>
+										<p>📞 
+											<a href="{lead.fields.contact}">
+												{lead.fields.contact}
+											</a>
+										</p>
+										<br/>
+										<p>
+											{lead.fields.notes}
+										</p>
+									</div>
+								</div>
+							{/if}
+						{/if}
+					{/each}
+				</div>
+				<div class="col-3">
+					{#each data as lead, i}
+						{#if lead.fields.available}
+							{#if i%3 == 2}
+								<div class="card">
+									<div class="width-restriction">
+										<h2>{lead.fields.name}</h2>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
+										<br/>
+										<p>📍 
+											<a href="{lead.fields.google}">
+												{lead.fields.location}
+											</a>
+										</p>
+										<p>📞 
+											<a href="{lead.fields.contact}">
+												{lead.fields.contact}
+											</a>
+										</p>
+										<br/>
+										<p>
+											{lead.fields.notes}
+										</p>
+									</div>
+								</div>
+							{/if}
+						{/if}
+					{/each}
+				</div>
+			</div>
+			
+		{:catch error}
+			<p>{errorMessage}</p>
+		{/await}
+		<br/>
+		{/if}
+
+		<!-- Plasma Donors -->
+		{#if bloodDonor}
+		{#await fetchBloodDonors}
+			<p>Blood donors loading</p>
+		{:then data}
+			<h2>Blood Donors</h2>
+			<br/>
+			<br/>
+			<div class="row">
+				<div class="col-3">
+					{#each data as lead, i}
+						{#if lead.fields.available}
+							{#if i%3 == 0}
+								<div class="card">
+									<div class="width-restriction">
+										<h2>{lead.fields.name}</h2>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
+										<br/>
+										<p>📍 
+											<a href="{lead.fields.google}">
+												{lead.fields.location}
+											</a>
+										</p>
+										<p>📞 
+											<a href="{lead.fields.contact}">
+												{lead.fields.contact}
+											</a>
+										</p>
+										<br/>
+										<p>
+											{lead.fields.notes}
+										</p>
+									</div>
+								</div>
+							{/if}
+						{/if}
+					{/each}
+				</div>
+				<div class="col-3">
+					{#each data as lead, i}
+						{#if lead.fields.available}
+							{#if i%3 == 1}
+								<div class="card">
+									<div class="width-restriction">
+										<h2>{lead.fields.name}</h2>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
+										<br/>
+										<p>📍 
+											<a href="{lead.fields.google}">
+												{lead.fields.location}
+											</a>
+										</p>
+										<p>📞 
+											<a href="{lead.fields.contact}">
+												{lead.fields.contact}
+											</a>
+										</p>
+										<br/>
+										<p>
+											{lead.fields.notes}
+										</p>
+									</div>
+								</div>
+							{/if}
+						{/if}
+					{/each}
+				</div>
+				<div class="col-3">
+					{#each data as lead, i}
+						{#if lead.fields.available}
+							{#if i%3 == 2}
+								<div class="card">
+									<div class="width-restriction">
+										<h2>{lead.fields.name}</h2>
+										<h5><strong>Last checked:</strong> {lead.fields.timestamp}</h5>
+										<br/>
+										<p>📍 
+											<a href="{lead.fields.google}">
+												{lead.fields.location}
+											</a>
+										</p>
+										<p>📞 
+											<a href="{lead.fields.contact}">
+												{lead.fields.contact}
+											</a>
+										</p>
+										<br/>
+										<p>
+											{lead.fields.notes}
+										</p>
+									</div>
+								</div>
+							{/if}
+						{/if}
+					{/each}
+				</div>
+			</div>
+			
+		{:catch error}
+			<p>{errorMessage}</p>
+		{/await}
+		<br/>
 		{/if}
 
 		<!-- Oxygen Cylinder -->
