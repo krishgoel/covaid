@@ -341,7 +341,7 @@ function twitterDeploy() {
 		<section class="post-request">
 			<h1>Post your request</h1>
 			<p>
-				Pleas note that while we work to the best of abilities to provide verified information on COVID-19 resources to all those in need, we donot take any responsibilities for any consequences that may occue through our platform. Rest assured, our teams are working around the clock to get you this information in real-time.
+				We would like to emphasize that the CovAID team does not take responsibility for the transactions that occur through these leads. No verification process is 100% infallible and there is always a risk for suppliers being fraudulent. We request all users to exercise the requisite discretion to maintain their own safety and security. Rest assured, CovAID is working to the best of its abilities to provide verified, real-time information to those in need.
 			</p>
 			<div class="post-buttons">
 				<button on:click={twitterDeploy}>
