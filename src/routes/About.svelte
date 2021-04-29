@@ -9,7 +9,7 @@
 
 <section>
     <div class="width-restriction" style="width: 70%">
-        <h1>About us</h1>
+        <h1>About Us</h1>
         <br/>
         <p>
             CovAID is the joint <strong>initiative of 5 students from Sanskriti School, New Delhi</strong>. We have initiated a unified <strong>online platform for smooth and accurate dispersal of information</strong> regarding availability of Covid-19 resources in the National Capital Region. <strong>Verification takes place through direct contact (calls, messages, etc.) that involves pictorial proof</strong>. These verified updates are then posted on the platform at frequent, regular intervals.
@@ -21,25 +21,25 @@
             <!-- <strong>We're here to help</strong>. Reach out to us via 
             <a href="https://instagram.com/resources_covaid" target="_blank">Instagram</a> or <a href="mailto: covaid000@gmail.com" target="_blank">Email (covaid000@gmail.com)</a>. If you want to speak to us over the phone, DM us on Instagram and we’ll arrange a call with an official. 
             <br/><br/> -->
-            Regards 
+            Regards,
             <br/>
-            CovAID
+            Team CovAID
         </p>
-        <br/>
+        <br/><br/>
         <div class="row">
             <div class="col-3">
 
                 <div class="card">
                     <div class="width-restriction">
                         <h3>Advait Roy</h3>
-                        <p>Volunteer management Department: Manager - 1</p>
+                        <p>Content Curation</p>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="width-restriction">
                         <h3>Srijan Tripathi</h3>
-                        <p>Social media management Department: Manager</p>
+                        <p>Social Media and Outreach</p>
                     </div>
                 </div>
 
@@ -49,8 +49,8 @@
 
                 <div class="card">
                     <div class="width-restriction">
-                        <h3>Ishaan Kanodia</h3>
-                        <p>Volunteer management Department: Manager - 2</p>
+                        <h3>Ishaan Kanudia</h3>
+                        <p>Volunteer Affairs</p>
                     </div>
                 </div>
 
@@ -68,7 +68,7 @@
                 <div class="card">
                     <div class="width-restriction">
                         <h3>Krish Goel</h3>
-                        <p>Tec# $w@ggEr</p>
+                        <p>Tec# $w@ggE₹</p>
                     </div>
                 </div>
 
@@ -125,6 +125,7 @@
             <p>There was an error in loading contributors</p>
         {/await}
 
+        <br/><br/>
 
         <h3>Disclaimer</h3>
         <p>
