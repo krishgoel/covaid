@@ -20,7 +20,9 @@
             <a href="https://github.com/KrishSkywalker/covaid" target="_blank">
                 <i class='fa fa-github'></i>
             </a>
-            <a href="/about"><h4>About us</h4></a>
+            <a href="/volunteer">
+                <h4>Volunteer with us</h4>
+            </a>
         </div>
     </div>
 </footer>
