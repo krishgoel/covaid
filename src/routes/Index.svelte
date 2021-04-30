@@ -25,12 +25,12 @@
 		return await response.json()
 	})()
 
-	// Oxygen cylinders
-	let bloodDonor = false;
-	const fetchBloodDonors = (async () => {
-		var response = await fetch('https://potion-api.vercel.app/table?id=6469ce05c1e34eea837d26f35ca69144')
-		return await response.json()
-	})()
+	// // Oxygen cylinders
+	// let bloodDonor = false;
+	// const fetchBloodDonors = (async () => {
+	// 	var response = await fetch('https://potion-api.vercel.app/table?id=6469ce05c1e34eea837d26f35ca69144')
+	// 	return await response.json()
+	// })()
 
 	// Oxygen cylinders
 	let oxygenCylinder = false;
@@ -134,11 +134,11 @@ function twitterDeploy() {
       "need": plasmaDonor,
       "query": "plasma+OR+plasma+donor"
     },
-    {
-      "name": "Blood Donor",
-      "need": bloodDonor,
-      "query": "(blood+donor)+OR+blood"
-    },
+    // {
+    //   "name": "Blood Donor",
+    //   "need": bloodDonor,
+    //   "query": "(blood+donor)+OR+blood"
+    // },
     {
       "name": "Oxygen Cylinder",
       "need": oxygenCylinder,
@@ -255,10 +255,10 @@ function twitterDeploy() {
 								Plasma Donors
 							</label><br/>
 
-							<input type="checkbox" id="blood-donor" bind:checked={bloodDonor}/>
+							<!-- <input type="checkbox" id="blood-donor" bind:checked={bloodDonor}/>
 							<label for="blood-donor">
 								Blood Donors
-							</label><br/>
+							</label><br/> -->
 						</div>
 					</div>
 
@@ -686,7 +686,7 @@ function twitterDeploy() {
 		{/if}
 
 		<!-- Plasma Donors -->
-		{#if bloodDonor}
+		<!-- {#if bloodDonor}
 		{#await fetchBloodDonors}
 			<p>Blood donors loading</p>
 		{:then data}
@@ -787,7 +787,7 @@ function twitterDeploy() {
 			<p>{errorMessage}</p>
 		{/await}
 		<br/>
-		{/if}
+		{/if} -->
 
 		<!-- Oxygen Cylinder -->
 		{#if oxygenCylinder}
